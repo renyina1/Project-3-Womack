@@ -1,0 +1,189 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+} 
+
+body {
+	margin:0;
+}
+
+.content-container {
+	margin:.625em;
+}
+
+h1 {
+	padding:1.25em 0;
+	background-color:#2D3945;
+	margin:0;
+	text-align: center;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+h2 {
+	margin:1.25em 0 0 0;
+	text-align:center;
+	font-size: 1.25em;
+}
+
+body p:nth-of-type(1) {
+	text-align:center;
+	padding:1em 0 1.25em 0;
+	border-bottom: 4px solid #000;
+	margin:0;
+}
+
+form {
+	margin: .125em 0 0 0;
+	border-top: 2px solid #000; 
+}
+
+.ci-container {
+	border-bottom: 2px solid #000; 
+	padding-bottom: 1.875em;
+}
+
+.contact-info input,
+.contact-info select {
+	width:100%;
+	height:2.75em;
+	border-radius: .3125em;
+	border-style: solid;
+	border: none;
+	background-color:#EFF0F1;
+}
+
+.newsletter textarea {
+	width:100%;
+	height:7.5em;
+	border-radius: .3125em;
+	border-style: solid;
+	border: none;
+	background-color:#EFF0F1;
+}
+
+fieldset {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+legend {
+	font-size: 1.125em;
+	font-weight: bold;
+	padding: 1.25em 0;
+}
+
+label {
+	display:inline-block;
+	padding: .625em 0;
+	color:#788695;
+	font-size: .75em;
+}
+
+.contact-info label {
+	display: block;
+}
+
+.contact-info label:nth-of-type(1) {
+	padding-top:0;
+}
+
+input {
+	padding: 0 .625em;	
+}
+
+select {
+	padding: 0 .3125em;
+}
+
+input:focus, 
+select:focus,
+textarea:focus{
+	outline: none;
+	border: 2px solid #46698B;
+}
+
+input[placeholder="Required"] {
+	text-align:right;
+	display: inline-block;
+}
+
+input[placeholder="Required"]:focus {
+	text-align:left;
+}
+
+input[name="zip-code"] {
+	width:50%;
+}
+
+.newsletter label:nth-of-type(1){
+	padding:0 0 .3125em 0;
+}
+
+.newsletter label:nth-of-type(5) {
+	padding: 1em 0 .3125em 0;
+}
+
+.newsletter label:nth-of-type(8) {
+	padding:.8125em 0;
+}
+
+textarea {
+	padding: .625em;
+}
+
+button{
+	width:100%;
+	height: 3em;
+	border-radius: .375em;
+	border-style: none;
+	background-color:#4EBBB5;
+	font-size: 1.25em;
+	margin: 1.25em 0 .75em 0;
+	color: #fff;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 1.5em;
+	color:#788695;
+	font-style:italic;
+}
+
+@media (min-width:768px) {
+	
+	.content-container {
+		width: 31.25em;
+		margin: 0 auto;
+	}
+	
+	.contact-info label {
+	display: inline-block;
+	}
+	
+	.contact-info label {
+		width: 28%;
+		padding: 1em 0;
+	}
+	
+	.contact-info input,
+	.contact-info select{
+		width: 70%;
+		margin: .8175em 0;
+	}
+	
+	.contact-info input:nth-of-type(1) {
+	margin-top:0;
+	}
+	
+	.contact-info input:nth-of-type(6) {
+	margin-bottom:0;
+	}
+	
+	input[name="zip-code"] {
+	width:25%;
+	}
+	
+}
